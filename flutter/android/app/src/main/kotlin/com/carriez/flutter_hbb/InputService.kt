@@ -106,7 +106,7 @@ class InputService : AccessibilityService() {
                     if (isWaitingLongPress) {
                         isWaitingLongPress = false
                         leftIsDown = false
-                        endGesture(mouseX, mouseY)
+                       // endGesture(mouseX, mouseY)
                     }
                 }
             }, LONG_TAP_DELAY * 4)
